@@ -1,5 +1,10 @@
-ion-content.puzzle {
+ion-content.puzzle,
+ion-content.help{
   background: url('../img/irongrip.png');
+  /*color: #f5f5f5;*/
+}
+
+.help h3{
   color: #f5f5f5;
 }
 

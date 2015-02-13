@@ -1,4 +1,4 @@
-angular.module('starter.controllers')
+angular.module('starter.controllers', [])
 	.controller('GameCtrl', function ($scope) {
 
 		//function checkPos() {
@@ -37,9 +37,6 @@ angular.module('starter.controllers')
 		//		array.splice(index, 1);
 		//	})
 		//};
-		$scope.onDragUp = function(){
-			console.log(545);
-		}
 
 		function move(action, id, e) {
 			if (action) {
@@ -108,4 +105,7 @@ angular.module('starter.controllers')
 			var index = array.indexOf(random);
 			array.splice(index, 1);
 		})
+	})
+	.controller('HelpCtrl', function ($scope) {
+
 	});
