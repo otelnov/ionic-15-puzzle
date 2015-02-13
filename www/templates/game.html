@@ -1,0 +1,85 @@
+к<ion-view view-title="15 - puzzles">
+  <ion-content class="puzzle" scroll="false">
+
+    <div class="puzzle-field"
+         on-swipe-up="swipe('up')"
+         on-swipe-down="swipe('down')"
+         on-swipe-left="swipe('left')"
+         on-swipe-right="swipe('right')">
+      <div class="row">
+        <p class="col cell" id="1" ng-class="cell1class" on-drag-up="onDragUp()">
+          <span>{{cell1}}</span>
+        </p>
+
+        <p class="col cell" id="2" ng-class="cell2class">
+          <span>{{cell2}}</span>
+        </p>
+
+        <p class="col cell" id="3" ng-class="cell3class">
+          <span>{{cell3}}</span>
+        </p>
+
+        <p class="col cell" id="4" ng-class="cell4class">
+          <span>{{cell4}}</span>
+        </p>
+      </div>
+      <div class="row">
+        <p class="col cell" id="5" ng-class="cell5class">
+          <span>{{cell5}}</span>
+        </p>
+
+        <p class="col cell" id="6" ng-class="cell6class">
+          <span>{{cell6}}</span>
+        </p>
+
+        <p class="col cell" id="7" ng-class="cell7class">
+          <span>{{cell7}}</span>
+        </p>
+
+        <p class="col cell" id="8" ng-class="cell8class">
+          <span>{{cell8}}</span>
+        </p>
+      </div>
+      <div class="row">
+        <p class="col cell" id="9" ng-class="cell9class">
+          <span>{{cell9}}</span>
+        </p>
+
+        <p class="col cell" id="10" ng-class="cell10class">
+          <span>{{cell10}}</span>
+        </p>
+
+        <p class="col cell" id="11" ng-class="cell11class">
+          <span>{{cell11}}</span>
+        </p>
+
+        <p class="col cell" id="12" ng-class="cell12class">
+          <span>{{cell12}}</span>
+        </p>
+      </div>
+      <div class="row">
+        <p class="col cell" id="13" ng-class="cell13class">
+          <span>{{cell13}}</span>
+        </p>
+
+        <p class="col cell" id="14" ng-class="cell14class">
+          <span>{{cell14}}</span>
+        </p>
+
+        <p class="col cell" id="15" ng-class="cell15class">
+          <span>{{cell15}}</span>
+        </p>
+
+        <p class="col cell" id="16" ng-class="cell16class">
+          <span>{{cell16}}</span>
+        </p>
+      </div>
+    </div>
+
+    <!--<div style="margin-top: {{fHeight+40}}px; padding: 0 20px;">-->
+      <!--<button class="button button-full button-positive" ng-click="restart()">-->
+        <!--Restart-->
+      <!--</button>-->
+    <!--</div>-->
+  </ion-content>
+</ion-view>
